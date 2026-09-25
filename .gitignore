@@ -13,3 +13,10 @@ tempCodeRunnerFile.cpp
 
 # files the Claude desktop app drops into the folder
 Claude outputs/
+shots/
+
+# stray duplicates at the project root - the real copies live in docs/
+/Dinajpur_Railway_Station.pptx
+/Dinajpur_Station_Defence_Guide.pdf
+/Dinajpur_Station_Defence_Guide.docx
+/everything_restored.png

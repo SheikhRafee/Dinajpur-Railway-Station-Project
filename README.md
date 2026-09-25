@@ -28,7 +28,7 @@
 ## Table of contents
 
 - [What this is](#what-this-is)
-- [The scene](#the-scene)
+- [The scene, moving](#the-scene-moving)
 - [Controls](#controls)
 - [Features](#features)
 - [Build and run](#build-and-run)
@@ -52,18 +52,32 @@ movement.
 
 The scene runs through its own day, plays the right sound for the hour, and answers four keys.
 
-## The scene
+## The scene, moving
+
+Nobody touches a key for any of these. The hour turns on its own — **day → evening → night → day**,
+about 7.8 seconds each — and the light *travels* to the next colour one small step per frame, so
+every one of these is a fade, not a switch.
 
 | | |
 |:--:|:--:|
-| <img src="screenshots/day.png" width="430"><br>**Clear day** | <img src="screenshots/evening.png" width="430"><br>**Evening** — the light fades to warm orange |
-| <img src="screenshots/night.png" width="430"><br>**Night** — moon, 80 stars, lamps lit | <img src="screenshots/rain.png" width="430"><br>**Rain** — press <kbd>R</kbd>, and the clock stops |
+| <img src="screenshots/dusk.gif" width="430"><br>**Day → evening.** The white light warms to orange, the sun starts down. | <img src="screenshots/night.gif" width="430"><br>**Evening → night.** Orange drains to blue; moon, 80 stars and three lamp glows fade up. |
+| <img src="screenshots/dawn.gif" width="430"><br>**Night → day.** The blue lifts, the stars and the lamp glow fade out, the sun climbs back. | <img src="screenshots/rain.gif" width="430"><br>**Rain**, on the <kbd>R</kbd> key. The daylight greys down, 280 streaks fall — and the clock stops until <kbd>R</kbd> again. |
 
 <p align="center">
   <img src="screenshots/trains.png" width="92%"><br>
   <sub><b>Both trains on the tracks.</b> The red one is the blue one, mirrored with a negative scale —
   the same function, called twice.</sub>
 </p>
+
+<details>
+<summary><b>Single frames</b> — day · evening · night · rain, if the animations are slow to load</summary>
+
+| | |
+|:--:|:--:|
+| <img src="screenshots/day.png" width="430"><br>**Clear day** | <img src="screenshots/evening.png" width="430"><br>**Evening** |
+| <img src="screenshots/night.png" width="430"><br>**Night** | <img src="screenshots/rain.png" width="430"><br>**Rain** |
+
+</details>
 
 ## Controls
 
@@ -202,7 +216,11 @@ TrainStation_project.cbp      Code::Blocks project
 .vscode/tasks.json            VS Code build task
 
 docs/                         guide and presentation
-screenshots/                  the images in this README
+screenshots/                  the animations and stills in this README
+├─ demo.gif                   the trains running
+├─ dusk.gif  night.gif  dawn.gif   the hour turning
+├─ rain.gif                   the R key
+└─ day/evening/night/rain/trains.png   single frames
 ```
 
 ## Built with
@@ -212,6 +230,6 @@ screenshots/                  the images in this README
 ---
 
 <p align="center">
-  <sub>Computer Graphics laboratory project · Faculty of Science & Engineering<br>
+  <sub>Computer Graphics laboratory project · Faculty of Engineering<br>
   American International University-Bangladesh</sub>
 </p>
