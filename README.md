@@ -28,6 +28,7 @@
 ## Table of contents
 
 - [What this is](#what-this-is)
+- [Watch it with sound](#watch-it-with-sound)
 - [The scene, moving](#the-scene-moving)
 - [Controls](#controls)
 - [Features](#features)
@@ -51,6 +52,26 @@ and because a handful of numbers change a little between one rebuild and the nex
 movement.
 
 The scene runs through its own day, plays the right sound for the hour, and answers four keys.
+
+## Watch it with sound
+
+The GIFs below are silent — the format has no audio track. This is the same scene as a video, so you
+can hear it: the station ambience under the day, the evening bed, the whistle as the through train
+comes past, and the crickets at night. **47 seconds, two full turns of the clock.**
+
+<video
+  src="https://raw.githubusercontent.com/SheikhRafee/Dinajpur-Railway-Station-Project/main/screenshots/station_tour.mp4"
+  poster="https://raw.githubusercontent.com/SheikhRafee/Dinajpur-Railway-Station-Project/main/screenshots/day.png"
+  controls preload="metadata" width="100%">
+</video>
+
+> ▶️ [**station_tour.mp4**](screenshots/station_tour.mp4) — if the player above doesn't load, the file
+> is right here in the repo. Your browser won't start it with sound on its own, so press play.
+
+<sub>Nothing is faked for the recording: the video is the real program rendered frame by frame at its
+own 33 fps, and the sound is the project's own five <code>.wav</code> files, cut at the exact moments
+<code>update()</code> swaps them. The quiet stretch after the whistle is real too — <code>PlaySound</code>
+plays one sound at a time, so the looping bed only comes back once the through train is clear.</sub>
 
 ## The scene, moving
 
@@ -217,6 +238,7 @@ TrainStation_project.cbp      Code::Blocks project
 
 docs/                         guide and presentation
 screenshots/                  the animations and stills in this README
+├─ station_tour.mp4           the 47-second tour, with sound
 ├─ demo.gif                   the trains running
 ├─ dusk.gif  night.gif  dawn.gif   the hour turning
 ├─ rain.gif                   the R key
