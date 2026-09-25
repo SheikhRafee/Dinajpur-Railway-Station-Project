@@ -59,14 +59,17 @@ The GIFs below are silent — the format has no audio track. This is the same sc
 can hear it: the station ambience under the day, the evening bed, the whistle as the through train
 comes past, and the crickets at night. **47 seconds, two full turns of the clock.**
 
-<video
-  src="https://raw.githubusercontent.com/SheikhRafee/Dinajpur-Railway-Station-Project/main/screenshots/station_tour.mp4"
-  poster="https://raw.githubusercontent.com/SheikhRafee/Dinajpur-Railway-Station-Project/main/screenshots/day.png"
-  controls preload="metadata" width="100%">
-</video>
+<p align="center">
+  <a href="screenshots/station_tour.mp4">
+    <img src="screenshots/tour_poster.png" width="100%"
+         alt="Watch the 47-second tour with sound">
+  </a>
+</p>
 
-> ▶️ [**station_tour.mp4**](screenshots/station_tour.mp4) — if the player above doesn't load, the file
-> is right here in the repo. Your browser won't start it with sound on its own, so press play.
+<p align="center">
+  <sub>▶️ <b><a href="screenshots/station_tour.mp4">Click the picture</a></b> to open the video.
+  Your browser won't start it with sound on its own, so press play.</sub>
+</p>
 
 <sub>Nothing is faked for the recording: the video is the real program rendered frame by frame at its
 own 33 fps, and the sound is the project's own five <code>.wav</code> files, cut at the exact moments
@@ -239,6 +242,7 @@ TrainStation_project.cbp      Code::Blocks project
 docs/                         guide and presentation
 screenshots/                  the animations and stills in this README
 ├─ station_tour.mp4           the 47-second tour, with sound
+├─ tour_poster.png            its poster frame
 ├─ demo.gif                   the trains running
 ├─ dusk.gif  night.gif  dawn.gif   the hour turning
 ├─ rain.gif                   the R key
