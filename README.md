@@ -212,6 +212,6 @@ screenshots/                  the images in this README
 ---
 
 <p align="center">
-  <sub>Computer Graphics laboratory project · Faculty of Engineering<br>
+  <sub>Computer Graphics laboratory project · Faculty of Science & Engineering<br>
   American International University-Bangladesh</sub>
 </p>
