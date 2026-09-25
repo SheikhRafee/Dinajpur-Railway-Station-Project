@@ -59,16 +59,11 @@ The GIFs below are silent — the format has no audio track. This is the same sc
 can hear it: the station ambience under the day, the evening bed, the whistle as the through train
 comes past, and the crickets at night. **47 seconds, two full turns of the clock.**
 
-<p align="center">
-  <a href="screenshots/station_tour.mp4">
-    <img src="screenshots/tour_poster.png" width="100%"
-         alt="Watch the 47-second tour with sound">
-  </a>
-</p>
+https://github.com/user-attachments/assets/53300ac4-3a24-42d8-b5bc-5bd2ef13da30
 
 <p align="center">
-  <sub>▶️ <b><a href="screenshots/station_tour.mp4">Click the picture</a></b> to open the video.
-  Your browser won't start it with sound on its own, so press play.</sub>
+  <sub>▶️ Press play — your browser won't start it with sound on its own.
+  The file also lives in the repo, at <a href="screenshots/station_tour.mp4"><code>screenshots/station_tour.mp4</code></a>.</sub>
 </p>
 
 <sub>Nothing is faked for the recording: the video is the real program rendered frame by frame at its
@@ -242,7 +237,6 @@ TrainStation_project.cbp      Code::Blocks project
 docs/                         guide and presentation
 screenshots/                  the animations and stills in this README
 ├─ station_tour.mp4           the 47-second tour, with sound
-├─ tour_poster.png            its poster frame
 ├─ demo.gif                   the trains running
 ├─ dusk.gif  night.gif  dawn.gif   the hour turning
 ├─ rain.gif                   the R key
