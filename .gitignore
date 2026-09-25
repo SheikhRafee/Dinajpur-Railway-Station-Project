@@ -1,0 +1,15 @@
+# build output
+*.exe
+*.o
+*.obj
+bin/
+obj/
+
+# editor / tool scratch
+tempCodeRunnerFile.cpp
+.vs/
+*.layout
+*.depend
+
+# files the Claude desktop app drops into the folder
+Claude outputs/
